@@ -1,0 +1,66 @@
+
+
+body {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+body > section.txt {
+    text-align: center;
+}
+
+body > section.txt > h2 {
+    margin-bottom: 7px;
+}
+
+body > section.txt > h6 {
+    margin-top: 7px;
+}
+
+body > div {
+
+    text-align: center;
+
+}
+
+body > div > input#input{
+
+    padding: 3px 6px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
+body > div > button#findButton {
+    padding: 5px 15px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body > div > button#findButton:hover {
+
+    background: linear-gradient(90deg, rgb(6, 4, 55) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+
+}
+
+
+@media (min-width: 769px){
+
+    body > section.txt > h2 {
+        font-size: 2rem;
+    }
+    
+    body > section.txt > h6 {
+        font-size: 1rem;
+    }
+
+}
