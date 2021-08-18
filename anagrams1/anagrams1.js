@@ -2,11 +2,14 @@ const button = document.getElementById("findButton");
 const result = document.getElementById("guarda_result")
 
 
+
 let anagrama = []
 
 const limpaTela = () => {
     
-    result.innerText = ''
+    result.innerText = '';
+    result.innerHTML = '';
+    anagrama = [];
     
 }
 
